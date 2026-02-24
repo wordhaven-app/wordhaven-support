@@ -150,20 +150,22 @@
       margin-bottom: 24px;
     }
 
+    .email-btn-wrap {
+      display: flex;
+      justify-content: center;
+    }
+
     .email-btn {
-      display: block;
-      width: 100%;
-      max-width: 340px;
-      margin: 0 auto;
+      display: inline-block;
       background: linear-gradient(135deg, #0ea5e9, #10b981);
       color: #fff;
-      font-size: 14px;
+      font-size: 15px;
       font-weight: 700;
-      padding: 14px 20px;
+      padding: 14px 36px;
       border-radius: 99px;
       text-decoration: none;
       text-align: center;
-      word-break: break-all;
+      white-space: nowrap;
       transition: opacity 0.15s;
     }
 
@@ -267,9 +269,11 @@
     <div class="contact-box">
       <h2>Still need help?</h2>
       <p>If your question isn't answered above, we'd love to hear from you. Send us an email and we'll get back to you as soon as we can.</p>
-      <a class="email-btn" href="mailto:wordhavencontact@gmail.com?subject=WordHaven%20Support&body=Hi%20WordHaven%20Team%2C%0A%0A">
-        wordhavencontact@gmail.com
-      </a>
+      <div class="email-btn-wrap">
+        <a class="email-btn" href="mailto:wordhavencontact@gmail.com?subject=WordHaven%20Support&body=Hi%20WordHaven%20Team%2C%0A%0A">
+          wordhavencontact@gmail.com
+        </a>
+      </div>
       <p class="response-note">We typically respond within 1 to 2 business days.</p>
     </div>
 
